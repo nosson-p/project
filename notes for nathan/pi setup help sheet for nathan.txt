@@ -1,0 +1,62 @@
+1# sudo raspi-config
+
+2# expande file system
+
+ a# chang user password
+
+ b# boot options
+
+ c# desktop /cli
+
+ d# loged in as pi
+
+3# interfaceing options 
+
+ a# ssh
+
+4# if not connected to ethernet then connect to wi-fi
+
+5# update 
+
+6# sudo apt-get update
+
+7# sudo apt-get upgrade
+
+8# sudo apt-get install unattended-upgrade
+
+9# sudo apt-get install python-pip
+
+10# sudo pip install Adafruit_DHT
+
+11# pip install psutil
+
+12# sudo pip install ISStreamer
+
+13# copy server_room_temp.py
+
+14# run "python server_room_temp.py"
+
+14# copy monitor_process.py
+
+15# ps -ef | grep py
+
+16# what ever pid server_room_temp.py is copy it and run following command
+
+17# "python monitor_process.py <pid>"
+
+18# copy launch_process.sh
+
+19# chmod u+x launch_process.sh
+
+20# copy monitor_reboot.py
+
+21# run "crontab -e" and then type "1"
+
+22# go to the bottem of the page and past this "@reboot python /home/pi/project/monitor_reboot.py && /home/pi/project/launch_process.sh"
+
+23# your done 
+
+
+
+
+
