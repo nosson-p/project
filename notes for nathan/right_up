@@ -1,0 +1,65 @@
+I am using this service for data visualization. https://iot.app.initialstate.com it is a payed service, 100$ a year or 8$ a month
+
+
+
+
+
+These are the Python library i used.
+
+    import Adafruit_DHT
+    import psutil
+    import time
+    import sys
+    from ISStreamer.Streamer import Streamer
+    from subprocess import PIPE, Popen
+
+
+
+
+
+This is the components that i will need. 
+
+    Raspberry Pi 
+    Micro SD card 
+    Raspberry Pi power supply 
+    DHT22 Temperature/Humidity Sensor 
+
+
+
+
+
+Here is a estimate of how much it will cost to make. 
+
+10  355.69$
+
+20  827.8$
+
+30  1,234.2$
+
+40  1,844.6$
+
+50  2,057$
+
+Links and refereces.
+
+    https://medium.com/initial-state/build-an-inexpensive-network-of-web-connected-temperature-sensors-using-pi-zeros-730a40f1fb60
+
+    https://github.com/initialstate/pi-process-dashboard/wiki
+
+    https://github.com/initialstate/pi-process-dashboard/blob/master/monitor_process.py
+    
+    https://github.com/initialstate/pi-process-dashboard/blob/master/launch_process.sh
+
+    https://github.com/initialstate/pi-process-dashboard/blob/master/monitor_reboot.py
+
+
+
+I have incloded my github page that will store the code needed and a few other thing.
+
+    https://github.com/nosson-p/project 
+
+-nosson.p.
+
+
+
+
